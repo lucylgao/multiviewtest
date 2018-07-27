@@ -1,0 +1,12 @@
+Package: multiviewtest
+Title: Hypothesis Test of Whether Clusterings of Two Data Views are Independent 
+Version: 1.0
+Authors@R: person("Lucy L.", "Gao", email = "lucygao@uw.edu", role = c("aut", "cre"))
+Description: Implements the hypothesis test of whether clusterings of two data views are independent as proposed in Gao, L.L., Bien, J., and Witten, D. (2018) Are Clusterings of Multiple Data Views Independent? Submitted to the Annals of Applied Statistics. 
+Depends: R (>= 3.4.3)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: mclust (>= 5.4),
+    matrixStats (>= 0.52.2)

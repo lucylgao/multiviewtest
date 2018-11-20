@@ -52,8 +52,9 @@ the available model options.}
 use for the permutation procedure. The default number is 200.}
 
 \item{step}{A numeric value containing the fixed step size to be used in the optimization
-algorithm for estimating Pi. The default step size is 0.001. See Supplement C of
- "Are Clusterings of Multiple Data Views Independent?" for details.}
+algorithm for estimating Pi. The default step size is 0.001. See Appendix B 
+in the Supplementary Materials of "Are Clusterings of Multiple Data Views Independent?" 
+for details.}
 
 \item{maxiter}{A numeric value containing the maximum number of iterations to run in
 the optimization algorithm. The default maximum is 1000.}
@@ -134,5 +135,5 @@ discriminant analysis and density estimation,
 Journal of the American Statistical Association, 97/458, pp. 611-631.
 
 Gao, L.L., Bien, J., Witten, D. (2018) Are Clusterings of Multiple Data Views Independent?
-submitted to Annals of Applied Statistics.
+submitted to Biostatistics.
 }

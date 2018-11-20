@@ -32,8 +32,9 @@
 #' the second data view that correspond to observations which have not been removed 
 #' in the first data view.
 #' @param step A numeric value containing the fixed step size to be used in the optimization
-#' algorithm for estimating Pi. The default step size is 0.001. See Supplement C of
-#'  "Are Clusterings of Multiple Data Views Independent?" for details.
+#' algorithm for estimating Pi. The default step size is 0.001. See Appendix B 
+#' in the Supplementary Materials of "Are Clusterings of Multiple Data Views Independent?" 
+#' for details.
 #' @param maxiter A numeric value containing the maximum number of iterations to run in
 #'  the optimization algorithm. The default maximum is 1000.
 #' @param init1 An optional argument containing the model to be fitted in the
@@ -85,7 +86,7 @@
 #' n <- 71
 #' cl <- sample(1:K, n, replace=TRUE)
 #' x2 <- list(matrix(sig* rnorm(n*p), n, p) + t(mu1)[cl, ],
-#' matrix(sig * rnorm(n*p), , p) + t(mu2)[cl, ])
+#' matrix(sig * rnorm(n*p), n, p) + t(mu2)[cl, ])
 #'
 #' # Run the function on independent data views; we do not reject the null hypothesis.
 #' # Note: Will take a few seconds to run
@@ -128,7 +129,7 @@
 #' Journal of the American Statistical Association, 97/458, pp. 611-631.
 #'
 #' Gao, L.L., Bien, J., Witten, D. (2018) Are Clusterings of Multiple Data Views Independent?
-#' submitted to Annals of Applied Statistics.
+#' submitted to Biostatistics.
 #'
 test_indep_clust_subset <- function(x,  model1="EII", model2="EII",
                               K1=NULL, K2=NULL, 

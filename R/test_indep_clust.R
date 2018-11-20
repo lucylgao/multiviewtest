@@ -23,8 +23,9 @@
 #' (spherical, equal volume). The help file for
 #'  \code{\link[mclust]{mclustModelNames}} describes the available model options.
 #' @param step A numeric value containing the fixed step size to be used in the optimization
-#' algorithm for estimating Pi. The default step size is 0.001. See Supplement C of
-#'  "Are Clusterings of Multiple Data Views Independent?" for details.
+#' algorithm for estimating Pi. The default step size is 0.001. See Appendix B 
+#' in the Supplementary Materials of "Are Clusterings of Multiple Data Views Independent?" 
+#' for details.
 #' @param maxiter A numeric value containing the maximum number of iterations to run in
 #'  the optimization algorithm. The default maximum is 1000.
 #' @param init1 An optional argument containing the model to be fitted in the
@@ -115,7 +116,7 @@
 #' Journal of the American Statistical Association, 97/458, pp. 611-631.
 #'
 #' Gao, L.L., Bien, J., Witten, D. (2018) Are Clusterings of Multiple Data Views Independent?
-#' submitted to Annals of Applied Statistics.
+#' submitted to Biostatistics.
 #'
 test_indep_clust <- function(x, model1="EII", model2="EII",
                              K1=NULL, K2=NULL,
